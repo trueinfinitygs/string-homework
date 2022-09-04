@@ -1,0 +1,10 @@
+string yourName = "Как тебя зовут? ";
+string yourZodiac = "Какой у тебя знак зодиака? ";
+string yourAge = "Сколько тебе лет ? ";
+string yourWork = "Где ты работаешь ? ";
+Console.WriteLine(yourName + yourZodiac + yourAge + yourWork);
+string name = "Меня зовут Алексей,";
+string zodiac = "мой знак зодиака Водолей,мне ";
+int age = 21;
+string work = " год, работаю я на заводе!";
+Console.WriteLine (name + zodiac +age + work);
