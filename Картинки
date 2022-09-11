@@ -1,5 +1,5 @@
-int allpicture = 52;
+int allPicture = 52;
 int picture = 3;
-int row = (allpicture / picture);
-Console.WriteLine("Всего рядов: " + allpicture / picture);
-Console.WriteLine("Картинок сверх меры: " + allpicture % picture);
+int row = (allPicture / picture);
+Console.WriteLine("Всего рядов: " + allPicture / picture);
+Console.WriteLine("Картинок сверх меры: " + allPicture % picture);
