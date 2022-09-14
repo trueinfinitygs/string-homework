@@ -1,0 +1,8 @@
+int allPicture = 52;
+int picturesInRow = 3;
+int fullRows = allPicture / picturesInRow;
+int extraPictures = allPicture % picturesInRow;
+Console.WriteLine("У Вас 52 картинки,вам нужно поместить по 3 картинки в ряд.");
+Console.WriteLine("Cколько будет рядов из имеющихся картинок и сколько будет лишних картинок? ");
+Console.WriteLine("Полных рядов: " + fullRows);
+Console.WriteLine("Картинок вне рядов: " + extraPictures);
