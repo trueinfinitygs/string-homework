@@ -1,0 +1,5 @@
+string name = "Иванов";
+string surname = "Иван";
+Console.WriteLine(name + " " + surname);
+(name,surname) = (surname,name);
+Console.WriteLine(name + " " +  surname);
