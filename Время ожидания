@@ -6,6 +6,6 @@ int minutesОfWaiting = 60;
 Console.Write("Ведите колличество людей в очереди:");
 peopleInLine = Convert.ToInt32(Console.ReadLine());
 waitingTimeAll = peopleInLine * appointmentTime;
-waitingHours = waitingTimeAll / 60;
-minutesОfWaiting = waitingTimeAll % 60;
+waitingHours = waitingTimeAll / waitingHours;
+minutesОfWaiting = waitingTimeAll % minutesОfWaiting;
 Console.Write("Время ожидания в череди: " + waitingHours + "часа " + minutesОfWaiting + " минут");
